@@ -5,6 +5,7 @@ from uuid import UUID, uuid4
 
 app = FastAPI()
 
+
 class Task(BaseModel):
     id: Optional[UUID] = None
     title: str
